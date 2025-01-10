@@ -5,10 +5,10 @@
 using namespace std;
 
 class SmartLight : public SmartDevice {
-private:
 	int brightnessLevel;
 	string colorType;
 
+	shared_ptr<SmartDevice> Clone() const override;
 public:
 	SmartLight(int id, const string& name, const string& manufacturer, int brightness = 50, const string& color = "Warm White");
 	void InteractionEvent() const override;

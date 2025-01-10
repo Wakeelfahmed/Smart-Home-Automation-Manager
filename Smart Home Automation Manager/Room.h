@@ -7,28 +7,19 @@
 #include "SmartDevice.h"
 
 class Room {
-private:
-    std::string name;
-    std::vector<std::shared_ptr<SmartDevice>> devices;
+	string name;
+	vector<shared_ptr<SmartDevice>> devices;
 
 public:
-    Room(const std::string& roomName);
-
-    const std::string& GetName() const;
-
-    void AddDevice(std::shared_ptr<SmartDevice> device);
-
-    void RemoveDevice(int id);
-
-    void ListDevices() const;
-
-    void ListDevicesDetails() const;
-
-    void ActivateAllDevices();
-
-    void DeactivateAllDevices();
-
-    const std::vector<std::shared_ptr<SmartDevice>>& GetDevices() const;
+	Room(const string& roomName);
+	const string& GetName() const;
+	void AddDevice(shared_ptr<SmartDevice> device);
+	void RemoveDevice(int id);
+	void ListDevices() const;
+	void ListDevicesDetails() const;
+	void ActivateAllDevices();
+	void DeactivateAllDevices();
+	const vector<shared_ptr<SmartDevice>>& GetDevices() const;
 };
 
 #endif // ROOM_H

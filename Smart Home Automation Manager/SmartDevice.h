@@ -13,6 +13,8 @@ protected:
 	bool status; // true = active, false = inactive
 
 public:
+	virtual shared_ptr<SmartDevice> Clone() const = 0; // Pure virtual method for cloning
+
 	SmartDevice(int id, const string& name, const string& manufacturer);
 	virtual ~SmartDevice();
 	virtual void InteractionEvent() const = 0;

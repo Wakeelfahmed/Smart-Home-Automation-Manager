@@ -3,6 +3,8 @@
 SmartLight::SmartLight(int id, const string& name, const string& manufacturer, int brightness, const string& color)
 	: SmartDevice(id, name, manufacturer), brightnessLevel(brightness), colorType(color) {}
 
+shared_ptr<SmartDevice> SmartLight::Clone() const { return make_shared<SmartLight>(*this); }
+
 void SmartLight::InteractionEvent() const {
 	if (status)
 		cout << "Smart Light brightness: " << brightnessLevel

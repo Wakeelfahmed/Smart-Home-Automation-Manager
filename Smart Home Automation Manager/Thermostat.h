@@ -5,9 +5,9 @@
 using namespace std;
 
 class Thermostat : public SmartDevice {
-private:
 	float TemperatureSet;
 
+	shared_ptr<SmartDevice> Clone() const override;
 public:
 	Thermostat(int id, const string& name, const string& manufacturer, float temp = 22.0f);
 	void InteractionEvent() const override;

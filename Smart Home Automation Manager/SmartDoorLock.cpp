@@ -3,6 +3,8 @@
 SmartDoorLock::SmartDoorLock(int id, const string& name, const string& manufacturer, const string& auth)
 	: SmartDevice(id, name, manufacturer), authMethod(auth) {}
 
+shared_ptr<SmartDevice> SmartDoorLock::Clone() const { return make_shared<SmartDoorLock>(*this); }
+
 void SmartDoorLock::Lock() {
 	if (status)
 		cout << name << " is already Locked.\n";

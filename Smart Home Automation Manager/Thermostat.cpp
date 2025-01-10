@@ -1,14 +1,14 @@
 #include "Thermostat.h"
+#include <windows.h>	// For UTF-8 support
 
 Thermostat::Thermostat(int id, const string& name, const string& manufacturer, float temp)
 	: SmartDevice(id, name, manufacturer), TemperatureSet(temp) {}
 
+shared_ptr<SmartDevice> Thermostat::Clone() const { return make_shared<Thermostat>(*this); } // Copy constructor for deep copy
+
 void Thermostat::InteractionEvent() const {
-
-	std::cout << "Temperature: 25° C" << std::endl;
-
 	if (status)
-		cout << "Thermostat is set to " << TemperatureSet << "\u00B0 C\n";
+		cout << "Thermostat is set to " << TemperatureSet << "Â°C\n";
 	else
 		cout << "Thermostat is inactive.\n";
 }
@@ -16,7 +16,7 @@ void Thermostat::InteractionEvent() const {
 void Thermostat::SetTargetTemperature(float temp) {
 	if (status) {
 		TemperatureSet = temp;
-		cout << "Target temperature set to " << TemperatureSet << "°C\n";
+		cout << "Target temperature set to " << TemperatureSet << "Â°C\n";
 	}
 	else
 		cout << "Thermostat is inactive.\n";
@@ -24,5 +24,5 @@ void Thermostat::SetTargetTemperature(float temp) {
 
 void Thermostat::ViewInfo() const {
 	SmartDevice::ViewInfo();
-	cout << "Target Temperature: " << TemperatureSet << "°C\n";
+	cout << "Target Temperature: " << TemperatureSet << "Â°C\n";
 }

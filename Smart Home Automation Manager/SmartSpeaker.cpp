@@ -3,6 +3,8 @@
 SmartSpeaker::SmartSpeaker(int id, const string& name, const string& manufacturer, int volume)
 	: SmartDevice(id, name, manufacturer), volumeLevel(volume) {}
 
+shared_ptr<SmartDevice> SmartSpeaker::Clone() const { return make_shared<SmartSpeaker>(*this); }
+
 void SmartSpeaker::InteractionEvent() const {
 	if (status)
 		cout << "Smart Speaker volume level: " << volumeLevel << '\n';
