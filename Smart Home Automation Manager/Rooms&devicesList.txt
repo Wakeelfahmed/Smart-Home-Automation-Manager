@@ -1,0 +1,12 @@
+Room: Living Room
+1,SmartLight,Living Room Light,Philips,true
+2,SmartThermostat,Living Room Thermostat,Nest,false,24.5
+
+Room: Bedroom
+3,SmartLight,Bedroom Light,Philips,false
+4,SmartDoorLock,Bedroom Door Lock,August Home,true,Keypad
+
+Room: Kitchen
+5,SmartLight,Kitchen Light,Philips,true
+6,SmartThermostat,Kitchen Thermostat,Nest,false,18.0
+7,SmartDoorLock,Kitchen Door Lock,August Home,true,Card
