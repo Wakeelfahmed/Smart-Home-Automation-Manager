@@ -18,19 +18,17 @@ void SmartLight::SetBrightness(int level) {
 		brightnessLevel = level;
 		cout << "Brightness set to " << brightnessLevel << '\n';
 	}
-	else {
+	else 
 		cout << "Invalid brightness level or light is inactive.\n";
-	}
 }
 
 void SmartLight::SetColor(const string& color) {
-	if (status && colorType == "RGB") {
+	if (status && colorType == "RGB" || status && colorType == "Warm" || status && colorType == "Cool" || status && colorType == "White") {
 		colorType = color;
 		cout << "Color set to " << colorType << '\n';
 	}
-	else {
+	else 
 		cout << "Light does not support color change or is inactive.\n";
-	}
 }
 
 void SmartLight::ViewInfo() const {

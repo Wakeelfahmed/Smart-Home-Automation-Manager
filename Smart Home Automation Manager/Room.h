@@ -14,7 +14,7 @@ public:
 	Room(const string& roomName);
 	const string& GetName() const;
 	void AddDevice(shared_ptr<SmartDevice> device);
-	void RemoveDevice(int id);
+	bool RemoveDevice(int id);
 	void ListDevices() const;
 	void ListDevicesDetails() const;
 	void ActivateAllDevices();

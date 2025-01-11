@@ -8,8 +8,7 @@ SmartWashingMachine::SmartWashingMachine(int id, const string& name, const strin
 
 void SmartWashingMachine::InteractionEvent() const {
 	if (status)
-		cout << "Washing Machine is running. Cycle: " << washCycle
-		<< ", Duration: " << duration << " mins, Capacity: "
+		cout << "Washing Machine is running. Cycle: " << washCycle << ", Duration: " << duration << " mins, Capacity: "
 		<< loadCapacity << " kg.\n";
 	else
 		cout << "Washing Machine is inactive.\n";
@@ -28,6 +27,5 @@ void SmartWashingMachine::SetWashCycle(const string& cycle, int dur) {
 
 void SmartWashingMachine::ViewInfo() const {
 	SmartDevice::ViewInfo();
-	cout << "Wash Cycle: " << washCycle << "\nDuration: " << duration
-		<< " mins\nLoad Capacity: " << loadCapacity << " kg\n";
+	cout << "Wash Cycle: " << washCycle << "\tDuration: " << duration << " mins\tLoad Capacity: " << loadCapacity << " kg\n";
 }

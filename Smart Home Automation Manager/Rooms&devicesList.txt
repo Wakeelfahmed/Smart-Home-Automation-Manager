@@ -1,6 +1,6 @@
 Room: Living Room
 1,SmartLight,Living Room Light,Philips,true
-2,SmartThermostat,Living Room Thermostat,Nest,false,24.5
+2,Thermostat,Living Room Thermostat,Nest,false,24.5
 
 Room: Bedroom
 3,SmartLight,Bedroom Light,Philips,false
@@ -8,5 +8,8 @@ Room: Bedroom
 
 Room: Kitchen
 5,SmartLight,Kitchen Light,Philips,true
-6,SmartThermostat,Kitchen Thermostat,Nest,false,18.0
+6,Thermostat,Kitchen Thermostat,Nest,false,18.0
 7,SmartDoorLock,Kitchen Door Lock,August Home,true,Card
+
+Room: Laundry
+14,WashingMachine,Washer,Samsung,Quick Wash, 45, 8

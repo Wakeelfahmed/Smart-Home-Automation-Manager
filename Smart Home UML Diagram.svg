@@ -1,0 +1,2230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2370 817">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-73);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-72);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-62);
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-186);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-45);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-63);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-170);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-20);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-135);
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-123);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-13 {
+        fill: #fff;
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-157);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-59);
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-78);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-169);
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-93);
+      }
+
+      .cls-19 {
+        stroke-linejoin: round;
+      }
+
+      .cls-19, .cls-20 {
+        stroke: #000;
+      }
+
+      .cls-19, .cls-20, .cls-21 {
+        fill: none;
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath-158);
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-89);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-33);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-64);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-47);
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-94);
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath-77);
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath-162);
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath-121);
+      }
+
+      .cls-31 {
+        clip-path: url(#clippath-160);
+      }
+
+      .cls-32 {
+        clip-path: url(#clippath-116);
+      }
+
+      .cls-33 {
+        clip-path: url(#clippath-161);
+      }
+
+      .cls-34 {
+        clip-path: url(#clippath-151);
+      }
+
+      .cls-35 {
+        clip-path: url(#clippath-136);
+      }
+
+      .cls-36 {
+        clip-path: url(#clippath-132);
+      }
+
+      .cls-37 {
+        clip-path: url(#clippath-41);
+      }
+
+      .cls-38 {
+        clip-path: url(#clippath-32);
+      }
+
+      .cls-39 {
+        clip-path: url(#clippath-108);
+      }
+
+      .cls-40 {
+        clip-path: url(#clippath-163);
+      }
+
+      .cls-41 {
+        clip-path: url(#clippath-112);
+      }
+
+      .cls-42 {
+        clip-path: url(#clippath-87);
+      }
+
+      .cls-43 {
+        clip-path: url(#clippath-142);
+      }
+
+      .cls-44 {
+        clip-path: url(#clippath-173);
+      }
+
+      .cls-45 {
+        clip-path: url(#clippath-83);
+      }
+
+      .cls-46 {
+        clip-path: url(#clippath-128);
+      }
+
+      .cls-47 {
+        clip-path: url(#clippath-119);
+      }
+
+      .cls-48 {
+        clip-path: url(#clippath-114);
+      }
+
+      .cls-49 {
+        clip-path: url(#clippath-185);
+      }
+
+      .cls-50 {
+        clip-path: url(#clippath-105);
+      }
+
+      .cls-51 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-52 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-53 {
+        clip-path: url(#clippath-88);
+      }
+
+      .cls-54 {
+        clip-path: url(#clippath-115);
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-182);
+      }
+
+      .cls-56 {
+        clip-path: url(#clippath-124);
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-37);
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-46);
+      }
+
+      .cls-59 {
+        clip-path: url(#clippath-25);
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-98);
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath-172);
+      }
+
+      .cls-62 {
+        clip-path: url(#clippath-107);
+      }
+
+      .cls-63 {
+        clip-path: url(#clippath-164);
+      }
+
+      .cls-64 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-65 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-66 {
+        clip-path: url(#clippath-153);
+      }
+
+      .cls-67 {
+        clip-path: url(#clippath-104);
+      }
+
+      .cls-68 {
+        clip-path: url(#clippath-76);
+      }
+
+      .cls-69 {
+        clip-path: url(#clippath-40);
+      }
+
+      .cls-70 {
+        clip-path: url(#clippath-117);
+      }
+
+      .cls-71 {
+        clip-path: url(#clippath-26);
+      }
+
+      .cls-72 {
+        clip-path: url(#clippath-81);
+      }
+
+      .cls-73 {
+        clip-path: url(#clippath-111);
+      }
+
+      .cls-74 {
+        clip-path: url(#clippath-181);
+      }
+
+      .cls-75 {
+        font-family: Arial-BoldItalicMT, Arial;
+      }
+
+      .cls-75, .cls-76 {
+        font-weight: 700;
+      }
+
+      .cls-75, .cls-76, .cls-77, .cls-78 {
+        font-size: 11px;
+        isolation: isolate;
+      }
+
+      .cls-75, .cls-77 {
+        font-style: italic;
+      }
+
+      .cls-79 {
+        clip-path: url(#clippath-75);
+      }
+
+      .cls-80 {
+        clip-path: url(#clippath-167);
+      }
+
+      .cls-81 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-82 {
+        clip-path: url(#clippath-21);
+      }
+
+      .cls-83 {
+        clip-path: url(#clippath-130);
+      }
+
+      .cls-84 {
+        clip-path: url(#clippath-34);
+      }
+
+      .cls-85 {
+        clip-path: url(#clippath-176);
+      }
+
+      .cls-86 {
+        clip-path: url(#clippath-57);
+      }
+
+      .cls-87 {
+        clip-path: url(#clippath-102);
+      }
+
+      .cls-88 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-89 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-90 {
+        clip-path: url(#clippath-138);
+      }
+
+      .cls-91 {
+        clip-path: url(#clippath-38);
+      }
+
+      .cls-92 {
+        clip-path: url(#clippath-36);
+      }
+
+      .cls-93 {
+        clip-path: url(#clippath-127);
+      }
+
+      .cls-94 {
+        clip-path: url(#clippath-27);
+      }
+
+      .cls-95 {
+        clip-path: url(#clippath-125);
+      }
+
+      .cls-96 {
+        clip-path: url(#clippath-109);
+      }
+
+      .cls-76 {
+        font-family: Arial-BoldMT, Arial;
+      }
+
+      .cls-97 {
+        clip-path: url(#clippath-149);
+      }
+
+      .cls-98 {
+        clip-path: url(#clippath-141);
+      }
+
+      .cls-99 {
+        clip-path: url(#clippath-101);
+      }
+
+      .cls-100 {
+        clip-path: url(#clippath-60);
+      }
+
+      .cls-101 {
+        clip-path: url(#clippath-168);
+      }
+
+      .cls-102 {
+        clip-path: url(#clippath-44);
+      }
+
+      .cls-103 {
+        clip-path: url(#clippath-154);
+      }
+
+      .cls-104 {
+        clip-path: url(#clippath-122);
+      }
+
+      .cls-105 {
+        clip-path: url(#clippath-139);
+      }
+
+      .cls-77 {
+        font-family: Arial-ItalicMT, Arial;
+      }
+
+      .cls-106 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-107 {
+        clip-path: url(#clippath-134);
+      }
+
+      .cls-108 {
+        clip-path: url(#clippath-113);
+      }
+
+      .cls-109 {
+        clip-path: url(#clippath-178);
+      }
+
+      .cls-110 {
+        clip-path: url(#clippath-95);
+      }
+
+      .cls-111 {
+        clip-path: url(#clippath-80);
+      }
+
+      .cls-112 {
+        clip-path: url(#clippath-120);
+      }
+
+      .cls-113 {
+        clip-path: url(#clippath-147);
+      }
+
+      .cls-114 {
+        clip-path: url(#clippath-24);
+      }
+
+      .cls-115 {
+        clip-path: url(#clippath-99);
+      }
+
+      .cls-116 {
+        clip-path: url(#clippath-166);
+      }
+
+      .cls-117 {
+        clip-path: url(#clippath-30);
+      }
+
+      .cls-118 {
+        clip-path: url(#clippath-179);
+      }
+
+      .cls-119 {
+        clip-path: url(#clippath-79);
+      }
+
+      .cls-120 {
+        clip-path: url(#clippath-22);
+      }
+
+      .cls-121 {
+        clip-path: url(#clippath-96);
+      }
+
+      .cls-122 {
+        clip-path: url(#clippath-150);
+      }
+
+      .cls-20 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-123 {
+        clip-path: url(#clippath-183);
+      }
+
+      .cls-124 {
+        clip-path: url(#clippath-103);
+      }
+
+      .cls-125 {
+        clip-path: url(#clippath-126);
+      }
+
+      .cls-126 {
+        clip-path: url(#clippath-137);
+      }
+
+      .cls-127 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-128 {
+        clip-path: url(#clippath-82);
+      }
+
+      .cls-129 {
+        clip-path: url(#clippath-52);
+      }
+
+      .cls-130 {
+        clip-path: url(#clippath-144);
+      }
+
+      .cls-131 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-132 {
+        clip-path: url(#clippath-50);
+      }
+
+      .cls-78 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-133 {
+        clip-path: url(#clippath-152);
+      }
+
+      .cls-134 {
+        clip-path: url(#clippath-156);
+      }
+
+      .cls-135 {
+        clip-path: url(#clippath-48);
+      }
+
+      .cls-136 {
+        clip-path: url(#clippath-61);
+      }
+
+      .cls-137 {
+        clip-path: url(#clippath-180);
+      }
+
+      .cls-138 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-139 {
+        clip-path: url(#clippath-159);
+      }
+
+      .cls-140 {
+        clip-path: url(#clippath-39);
+      }
+
+      .cls-141 {
+        clip-path: url(#clippath-19);
+      }
+
+      .cls-142 {
+        clip-path: url(#clippath-31);
+      }
+
+      .cls-143 {
+        clip-path: url(#clippath-86);
+      }
+
+      .cls-144 {
+        clip-path: url(#clippath-54);
+      }
+
+      .cls-145 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-146 {
+        clip-path: url(#clippath-131);
+      }
+
+      .cls-147 {
+        clip-path: url(#clippath-91);
+      }
+
+      .cls-148 {
+        clip-path: url(#clippath-129);
+      }
+
+      .cls-149 {
+        clip-path: url(#clippath-165);
+      }
+
+      .cls-150 {
+        clip-path: url(#clippath-175);
+      }
+
+      .cls-151 {
+        clip-path: url(#clippath-155);
+      }
+
+      .cls-152 {
+        clip-path: url(#clippath-43);
+      }
+
+      .cls-153 {
+        clip-path: url(#clippath-171);
+      }
+
+      .cls-154 {
+        clip-path: url(#clippath-70);
+      }
+
+      .cls-155 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-156 {
+        clip-path: url(#clippath-177);
+      }
+
+      .cls-157 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-158 {
+        clip-path: url(#clippath-133);
+      }
+
+      .cls-159 {
+        clip-path: url(#clippath-55);
+      }
+
+      .cls-160 {
+        clip-path: url(#clippath-69);
+      }
+
+      .cls-161 {
+        clip-path: url(#clippath-140);
+      }
+
+      .cls-162 {
+        clip-path: url(#clippath-29);
+      }
+
+      .cls-163 {
+        clip-path: url(#clippath-18);
+      }
+
+      .cls-164 {
+        clip-path: url(#clippath-90);
+      }
+
+      .cls-165 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-166 {
+        clip-path: url(#clippath-17);
+      }
+
+      .cls-167 {
+        clip-path: url(#clippath-97);
+      }
+
+      .cls-168 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-169 {
+        clip-path: url(#clippath-174);
+      }
+
+      .cls-170 {
+        clip-path: url(#clippath-58);
+      }
+
+      .cls-171 {
+        clip-path: url(#clippath-84);
+      }
+
+      .cls-172 {
+        clip-path: url(#clippath-148);
+      }
+
+      .cls-173 {
+        clip-path: url(#clippath-42);
+      }
+
+      .cls-174 {
+        clip-path: url(#clippath-65);
+      }
+
+      .cls-175 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-176 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-177 {
+        clip-path: url(#clippath-118);
+      }
+
+      .cls-178 {
+        clip-path: url(#clippath-23);
+      }
+
+      .cls-179 {
+        clip-path: url(#clippath-100);
+      }
+
+      .cls-180 {
+        clip-path: url(#clippath-92);
+      }
+
+      .cls-181 {
+        clip-path: url(#clippath-74);
+      }
+
+      .cls-182 {
+        clip-path: url(#clippath-56);
+      }
+
+      .cls-183 {
+        clip-path: url(#clippath-53);
+      }
+
+      .cls-184 {
+        clip-path: url(#clippath-49);
+      }
+
+      .cls-185 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-186 {
+        clip-path: url(#clippath-110);
+      }
+
+      .cls-187 {
+        clip-path: url(#clippath-146);
+      }
+
+      .cls-188 {
+        clip-path: url(#clippath-67);
+      }
+
+      .cls-189 {
+        clip-path: url(#clippath-51);
+      }
+
+      .cls-190 {
+        clip-path: url(#clippath-145);
+      }
+
+      .cls-191 {
+        clip-path: url(#clippath-28);
+      }
+
+      .cls-192 {
+        fill: #7acff5;
+      }
+
+      .cls-193 {
+        clip-path: url(#clippath-71);
+      }
+
+      .cls-194 {
+        clip-path: url(#clippath-184);
+      }
+
+      .cls-195 {
+        clip-path: url(#clippath-85);
+      }
+
+      .cls-196 {
+        clip-path: url(#clippath-106);
+      }
+
+      .cls-197 {
+        clip-path: url(#clippath-68);
+      }
+
+      .cls-198 {
+        clip-path: url(#clippath-143);
+      }
+
+      .cls-199 {
+        clip-path: url(#clippath-35);
+      }
+
+      .cls-200 {
+        clip-path: url(#clippath-66);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-21" x="1936" y="621" width="434" height="136"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-21" x="1936" y="621" width="434" height="136"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-21" x="1936" y="621" width="434" height="136"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="cls-21" x="1943" y="643" width="416" height="103"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="cls-21" x="1943" y="628" width="416" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="cls-21" x="1508" y="432" width="646" height="165"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <rect class="cls-21" x="1508" y="432" width="646" height="165"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <rect class="cls-21" x="1508" y="432" width="646" height="165"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-17">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-18">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-19">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-20">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-21">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-22">
+      <rect class="cls-21" x="1515" y="454" width="628" height="132"/>
+    </clipPath>
+    <clipPath id="clippath-23">
+      <rect class="cls-21" x="1515" y="439" width="628" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-24">
+      <rect class="cls-21" x="1281" y="622" width="452" height="135"/>
+    </clipPath>
+    <clipPath id="clippath-25">
+      <rect class="cls-21" x="1281" y="622" width="452" height="135"/>
+    </clipPath>
+    <clipPath id="clippath-26">
+      <rect class="cls-21" x="1281" y="622" width="452" height="135"/>
+    </clipPath>
+    <clipPath id="clippath-27">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-28">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-29">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-30">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-31">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-32">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-33">
+      <rect class="cls-21" x="1288" y="644" width="434" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-34">
+      <rect class="cls-21" x="1288" y="629" width="434" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-35">
+      <rect class="cls-21" x="956" y="431" width="553" height="166"/>
+    </clipPath>
+    <clipPath id="clippath-36">
+      <rect class="cls-21" x="956" y="431" width="553" height="166"/>
+    </clipPath>
+    <clipPath id="clippath-37">
+      <rect class="cls-21" x="956" y="431" width="553" height="166"/>
+    </clipPath>
+    <clipPath id="clippath-38">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-39">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-40">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-41">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-42">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-43">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-44">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-45">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-46">
+      <rect class="cls-21" x="963" y="453" width="535" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-47">
+      <rect class="cls-21" x="963" y="438" width="535" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-48">
+      <rect class="cls-21" x="441" y="55" width="472" height="225"/>
+    </clipPath>
+    <clipPath id="clippath-49">
+      <rect class="cls-21" x="441" y="55" width="472" height="225"/>
+    </clipPath>
+    <clipPath id="clippath-50">
+      <rect class="cls-21" x="441" y="55" width="472" height="225"/>
+    </clipPath>
+    <clipPath id="clippath-51">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-52">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-53">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-54">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-55">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-56">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-57">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-58">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-59">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-60">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-61">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-62">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-63">
+      <rect class="cls-21" x="448" y="77" width="454" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-64">
+      <rect class="cls-21" x="448" y="62" width="454" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-65">
+      <rect class="cls-21" x="708" y="621" width="495" height="166"/>
+    </clipPath>
+    <clipPath id="clippath-66">
+      <rect class="cls-21" x="708" y="621" width="495" height="166"/>
+    </clipPath>
+    <clipPath id="clippath-67">
+      <rect class="cls-21" x="708" y="621" width="495" height="166"/>
+    </clipPath>
+    <clipPath id="clippath-68">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-69">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-70">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-71">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-72">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-73">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-74">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-75">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-76">
+      <rect class="cls-21" x="715" y="643" width="477" height="133"/>
+    </clipPath>
+    <clipPath id="clippath-77">
+      <rect class="cls-21" x="715" y="628" width="477" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-78">
+      <rect class="cls-21" x="1042" y="4" width="381" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-79">
+      <rect class="cls-21" x="1042" y="4" width="381" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-80">
+      <rect class="cls-21" x="1042" y="4" width="381" height="300"/>
+    </clipPath>
+    <clipPath id="clippath-81">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-82">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-83">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-84">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-85">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-86">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-87">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-88">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-89">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-90">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-91">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-92">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-93">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-94">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-95">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-96">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-97">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-98">
+      <rect class="cls-21" x="1049" y="26" width="363" height="267"/>
+    </clipPath>
+    <clipPath id="clippath-99">
+      <rect class="cls-21" x="1049" y="11" width="363" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-100">
+      <rect class="cls-21" x="341" y="431" width="616" height="135"/>
+    </clipPath>
+    <clipPath id="clippath-101">
+      <rect class="cls-21" x="341" y="431" width="616" height="135"/>
+    </clipPath>
+    <clipPath id="clippath-102">
+      <rect class="cls-21" x="341" y="431" width="616" height="135"/>
+    </clipPath>
+    <clipPath id="clippath-103">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-104">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-105">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-106">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-107">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-108">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-109">
+      <rect class="cls-21" x="348" y="453" width="598" height="102"/>
+    </clipPath>
+    <clipPath id="clippath-110">
+      <rect class="cls-21" x="348" y="438" width="598" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-111">
+      <rect class="cls-21" y="55" width="313" height="225"/>
+    </clipPath>
+    <clipPath id="clippath-112">
+      <rect class="cls-21" y="55" width="313" height="225"/>
+    </clipPath>
+    <clipPath id="clippath-113">
+      <rect class="cls-21" y="55" width="313" height="225"/>
+    </clipPath>
+    <clipPath id="clippath-114">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-115">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-116">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-117">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-118">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-119">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-120">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-121">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-122">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-123">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-124">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-125">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-126">
+      <rect class="cls-21" x="7" y="77" width="295" height="192"/>
+    </clipPath>
+    <clipPath id="clippath-127">
+      <rect class="cls-21" x="7" y="62" width="295" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-128">
+      <rect class="cls-21" x="31" y="621" width="607" height="196"/>
+    </clipPath>
+    <clipPath id="clippath-129">
+      <rect class="cls-21" x="31" y="621" width="607" height="196"/>
+    </clipPath>
+    <clipPath id="clippath-130">
+      <rect class="cls-21" x="31" y="621" width="607" height="196"/>
+    </clipPath>
+    <clipPath id="clippath-131">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-132">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-133">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-134">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-135">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-136">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-137">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-138">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-139">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-140">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-141">
+      <rect class="cls-21" x="38" y="643" width="589" height="163"/>
+    </clipPath>
+    <clipPath id="clippath-142">
+      <rect class="cls-21" x="38" y="628" width="588" height="15"/>
+    </clipPath>
+    <clipPath id="clippath-143">
+      <rect class="cls-21" x="224" width="98" height="58"/>
+    </clipPath>
+    <clipPath id="clippath-144">
+      <rect class="cls-21" x="224" width="98" height="58"/>
+    </clipPath>
+    <clipPath id="clippath-145">
+      <rect class="cls-21" x="224" width="98" height="58"/>
+    </clipPath>
+    <clipPath id="clippath-146">
+      <rect class="cls-21" x="231" y="23" width="80" height="24"/>
+    </clipPath>
+    <clipPath id="clippath-147">
+      <rect class="cls-21" x="231" y="7" width="80" height="16"/>
+    </clipPath>
+    <clipPath id="clippath-148">
+      <rect class="cls-21" x="299" y="247" width="980" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-149">
+      <rect class="cls-21" x="299" y="247" width="980" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-150">
+      <rect class="cls-21" x="299" y="247" width="980" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-151">
+      <rect class="cls-21" x="299" y="247" width="980" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-152">
+      <rect class="cls-21" x="299" y="247" width="980" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-153">
+      <rect class="cls-21" x="602" y="247" width="678" height="238"/>
+    </clipPath>
+    <clipPath id="clippath-154">
+      <rect class="cls-21" x="602" y="247" width="678" height="238"/>
+    </clipPath>
+    <clipPath id="clippath-155">
+      <rect class="cls-21" x="602" y="247" width="678" height="238"/>
+    </clipPath>
+    <clipPath id="clippath-156">
+      <rect class="cls-21" x="602" y="247" width="678" height="238"/>
+    </clipPath>
+    <clipPath id="clippath-157">
+      <rect class="cls-21" x="602" y="247" width="678" height="238"/>
+    </clipPath>
+    <clipPath id="clippath-158">
+      <rect class="cls-21" x="908" y="247" width="372" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-159">
+      <rect class="cls-21" x="908" y="247" width="372" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-160">
+      <rect class="cls-21" x="908" y="247" width="372" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-161">
+      <rect class="cls-21" x="908" y="247" width="372" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-162">
+      <rect class="cls-21" x="908" y="247" width="372" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-163">
+      <rect class="cls-21" x="1185" y="247" width="95" height="240"/>
+    </clipPath>
+    <clipPath id="clippath-164">
+      <rect class="cls-21" x="1185" y="247" width="95" height="240"/>
+    </clipPath>
+    <clipPath id="clippath-165">
+      <rect class="cls-21" x="1185" y="247" width="95" height="240"/>
+    </clipPath>
+    <clipPath id="clippath-166">
+      <rect class="cls-21" x="1185" y="247" width="369" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-167">
+      <rect class="cls-21" x="1185" y="247" width="369" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-168">
+      <rect class="cls-21" x="1185" y="247" width="369" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-169">
+      <rect class="cls-21" x="1185" y="247" width="369" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-170">
+      <rect class="cls-21" x="1185" y="247" width="369" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-171">
+      <rect class="cls-21" x="1186" y="247" width="692" height="239"/>
+    </clipPath>
+    <clipPath id="clippath-172">
+      <rect class="cls-21" x="1186" y="247" width="692" height="239"/>
+    </clipPath>
+    <clipPath id="clippath-173">
+      <rect class="cls-21" x="1186" y="247" width="692" height="239"/>
+    </clipPath>
+    <clipPath id="clippath-174">
+      <rect class="cls-21" x="1186" y="247" width="692" height="239"/>
+    </clipPath>
+    <clipPath id="clippath-175">
+      <rect class="cls-21" x="1186" y="247" width="692" height="239"/>
+    </clipPath>
+    <clipPath id="clippath-176">
+      <rect class="cls-21" x="1186" y="247" width="1015" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-177">
+      <rect class="cls-21" x="1186" y="247" width="1015" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-178">
+      <rect class="cls-21" x="1186" y="247" width="1015" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-179">
+      <rect class="cls-21" x="1186" y="247" width="1015" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-180">
+      <rect class="cls-21" x="1186" y="247" width="1015" height="430"/>
+    </clipPath>
+    <clipPath id="clippath-181">
+      <rect class="cls-21" x="253" y="52" width="248" height="104"/>
+    </clipPath>
+    <clipPath id="clippath-182">
+      <rect class="cls-21" x="253" y="52" width="248" height="104"/>
+    </clipPath>
+    <clipPath id="clippath-183">
+      <rect class="cls-21" x="253" y="52" width="248" height="104"/>
+    </clipPath>
+    <clipPath id="clippath-184">
+      <rect class="cls-21" x="853" y="36" width="249" height="104"/>
+    </clipPath>
+    <clipPath id="clippath-185">
+      <rect class="cls-21" x="853" y="36" width="249" height="104"/>
+    </clipPath>
+    <clipPath id="clippath-186">
+      <rect class="cls-21" x="853" y="36" width="249" height="104"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1" color-rendering="auto" image-rendering="auto" shape-rendering="auto" text-rendering="auto">
+    <g>
+      <g text-rendering="geometricPrecision">
+        <rect class="cls-13" x="5" y="5" width="2358" height="804"/>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-131">
+          <rect class="cls-192" x="1943" y="628" width="416" height="118"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-88">
+          <rect class="cls-19" x="1943" y="628" width="416" height="118"/>
+        </g>
+        <g class="cls-51">
+          <line class="cls-19" x1="1943" y1="643" x2="2359" y2="643"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-145">
+          <text class="cls-78" transform="translate(1945 657)"><tspan x="0" y="0">-</tspan><tspan class="cls-138" x="3.66" y="0">T</tspan><tspan x="9.16" y="0">emperatureSet : float</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-89">
+          <line class="cls-20" x1="1943" y1="662" x2="2359" y2="662"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-168">
+          <text class="cls-78" transform="translate(1945 676)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-65">
+          <text class="cls-78" transform="translate(1945 691)"><tspan x="0" y="0">+Thermostat(id : int, name : const string&amp;, manufacturer : const string&amp;, temp : float)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-81">
+          <text class="cls-78" transform="translate(1945 706)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-155">
+          <text class="cls-78" transform="translate(1945 721)"><tspan x="0" y="0">+Set</tspan><tspan class="cls-138" x="22.93" y="0">T</tspan><tspan x="28.43" y="0">arget</tspan><tspan class="cls-138" x="53.51" y="0">T</tspan><tspan x="59.01" y="0">emperature(temp : float) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-127">
+          <text class="cls-78" transform="translate(1945 736)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-176">
+          <text class="cls-76" transform="translate(2121 640)"><tspan x="0" y="0">Thermostat</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-10">
+          <rect class="cls-192" x="1515" y="439" width="628" height="147"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-106">
+          <rect class="cls-19" x="1515" y="439" width="628" height="147"/>
+        </g>
+        <g class="cls-52">
+          <line class="cls-19" x1="1515" y1="454" x2="2143" y2="454"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-165">
+          <text class="cls-78" transform="translate(1517 468)"><tspan x="0" y="0">-washCycle : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-64">
+          <text class="cls-78" transform="translate(1517 483)"><tspan x="0" y="0">-duration : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-12">
+          <text class="cls-78" transform="translate(1517 498)"><tspan x="0" y="0">-loadCapacity : int</tspan></text>
+        </g>
+        <g class="cls-166">
+          <line class="cls-20" x1="1515" y1="503" x2="2143" y2="503"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-163">
+          <text class="cls-78" transform="translate(1517 517)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-141">
+          <text class="cls-78" transform="translate(1517 532)"><tspan x="0" y="0">+Smart</tspan><tspan class="cls-175" x="35.76" y="0">W</tspan><tspan x="45.73" y="0">ashingMachine(id : int, name : const string&amp;, manufacturer : const string&amp;, cycle : const string&amp;, dur : int, capacity : int)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-8">
+          <text class="cls-78" transform="translate(1517 547)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-82">
+          <text class="cls-78" transform="translate(1517 562)"><tspan x="0" y="0">+Set</tspan><tspan class="cls-175" x="22.93" y="0">W</tspan><tspan x="32.91" y="0">ashCycle(cycle : const string&amp;, dur : int) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-120">
+          <text class="cls-78" transform="translate(1517 577)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-178">
+          <text class="cls-76" transform="translate(1767 451)"><tspan x="0" y="0">Smart</tspan><tspan class="cls-175" x="31.18" y="0">W</tspan><tspan x="41.15" y="0">ashingMachine</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-114">
+          <rect class="cls-192" x="1288" y="629" width="434" height="117"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-59">
+          <rect class="cls-19" x="1288" y="629" width="434" height="117"/>
+        </g>
+        <g class="cls-71">
+          <line class="cls-19" x1="1288" y1="644" x2="1722" y2="644"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-94">
+          <text class="cls-78" transform="translate(1290 658)"><tspan x="0" y="0">-volumeLevel : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-191">
+          <line class="cls-20" x1="1288" y1="663" x2="1722" y2="663"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-162">
+          <text class="cls-78" transform="translate(1290 677)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-117">
+          <text class="cls-78" transform="translate(1290 692)"><tspan x="0" y="0">+SmartSpeaker(id : int, name : const string&amp;, manufacturer : const string&amp;, volume : int)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-142">
+          <text class="cls-78" transform="translate(1290 707)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-38">
+          <text class="cls-78" transform="translate(1290 722)"><tspan x="0" y="0">+Set</tspan><tspan class="cls-185" x="22.93" y="0">V</tspan><tspan x="29.66" y="0">olumeLevel(level : int) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-24">
+          <text class="cls-78" transform="translate(1290 737)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-84">
+          <text class="cls-76" transform="translate(1468 641)"><tspan x="0" y="0">SmartSpeaker</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-199">
+          <rect class="cls-192" x="963" y="438" width="535" height="148"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-92">
+          <rect class="cls-19" x="963" y="438" width="535" height="148"/>
+        </g>
+        <g class="cls-57">
+          <line class="cls-19" x1="963" y1="453" x2="1498" y2="453"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-91">
+          <text class="cls-78" transform="translate(965 467)"><tspan x="0" y="0">-brightnessLevel : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-140">
+          <text class="cls-78" transform="translate(965 482)"><tspan x="0" y="0">-color</tspan><tspan class="cls-185" x="27.51" y="0">T</tspan><tspan x="33.62" y="0">ype : string</tspan></text>
+        </g>
+        <g class="cls-69">
+          <line class="cls-20" x1="963" y1="487" x2="1498" y2="487"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-37">
+          <text class="cls-78" transform="translate(965 501)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-173">
+          <text class="cls-78" transform="translate(965 516)"><tspan x="0" y="0">+SmartLight(id : int, name : const string&amp;, manufacturer : const string&amp;, brightness : int, color : const string&amp;)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-152">
+          <text class="cls-78" transform="translate(965 531)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-102">
+          <text class="cls-78" transform="translate(965 546)"><tspan x="0" y="0">+SetBrightness(level : int) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-5">
+          <text class="cls-78" transform="translate(965 561)"><tspan x="0" y="0">+SetColor(color : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-58">
+          <text class="cls-78" transform="translate(965 576)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-26">
+          <text class="cls-76" transform="translate(1200 450)"><tspan x="0" y="0">SmartLight</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-135">
+          <rect class="cls-192" x="448" y="62" width="454" height="207"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-184">
+          <rect class="cls-19" x="448" y="62" width="454" height="207"/>
+        </g>
+        <g class="cls-132">
+          <line class="cls-19" x1="448" y1="77" x2="902" y2="77"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-189">
+          <text class="cls-78" transform="translate(450 91)"><tspan x="0" y="0">-deviceMap : unordered_map&lt;int, shared_ptr&lt;SmartDevice&gt;&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-129">
+          <text class="cls-78" transform="translate(450 106)"><tspan x="0" y="0">-rooms : vector&lt;shared_ptr&lt;Room&gt;&gt;</tspan></text>
+        </g>
+        <g class="cls-183">
+          <line class="cls-20" x1="448" y1="111" x2="902" y2="111"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-144">
+          <text class="cls-78" transform="translate(450 125)"><tspan x="0" y="0">+AddDevice</tspan><tspan class="cls-138" x="59.62" y="0">T</tspan><tspan x="65.12" y="0">oRoom(device : shared_ptr&lt;SmartDevice&gt;, roomName : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-159">
+          <text class="cls-78" transform="translate(450 140)"><tspan x="0" y="0">+AddRoom(room : string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-182">
+          <text class="cls-78" transform="translate(450 155)"><tspan x="0" y="0">+SearchDevice(id : int) : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-86">
+          <text class="cls-78" transform="translate(450 170)"><tspan x="0" y="0">+SearchRoom(roomName : const string&amp;) : shared_ptr&lt;Room&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-170">
+          <text class="cls-78" transform="translate(450 185)"><tspan x="0" y="0">+DuplicateRoom(roomName : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-15">
+          <text class="cls-78" transform="translate(450 200)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewAllRooms() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-100">
+          <text class="cls-78" transform="translate(450 215)"><tspan x="0" y="0">+GetRoomNameByDeviceID(deviceID : int) : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-136">
+          <text class="cls-78" transform="translate(450 230)"><tspan x="0" y="0">+RemoveDeviceByID(deviceID : int) : bool</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-3">
+          <text class="cls-78" transform="translate(450 245)"><tspan x="0" y="0">+LoadFromFile(filename : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-6">
+          <text class="cls-78" transform="translate(450 260)"><tspan x="0" y="0">+AddDevice</tspan><tspan class="cls-138" x="59.62" y="0">T</tspan><tspan x="65.12" y="0">oRoom(device : shared_ptr&lt; SmartDevice &gt;, roomName : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-25">
+          <text class="cls-76" transform="translate(621 74)"><tspan x="0" y="0">SmartHomeManager</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-174">
+          <rect class="cls-192" x="715" y="628" width="477" height="148"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-200">
+          <rect class="cls-19" x="715" y="628" width="477" height="148"/>
+        </g>
+        <g class="cls-188">
+          <line class="cls-19" x1="715" y1="643" x2="1192" y2="643"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-197">
+          <text class="cls-78" transform="translate(717 657)"><tspan x="0" y="0">-authMethod : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-160">
+          <line class="cls-20" x1="715" y1="662" x2="1192" y2="662"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-154">
+          <text class="cls-78" transform="translate(717 676)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-193">
+          <text class="cls-78" transform="translate(717 691)"><tspan x="0" y="0">+SmartDoorLock(id : int, name : const string&amp;, manufacturer : const string&amp;, auth : const string&amp;)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-2">
+          <text class="cls-78" transform="translate(717 706)"><tspan x="0" y="0">+Lock() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-1">
+          <text class="cls-78" transform="translate(717 721)"><tspan x="0" y="0">+Unlock() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-181">
+          <text class="cls-78" transform="translate(717 736)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-79">
+          <text class="cls-78" transform="translate(717 751)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-68">
+          <text class="cls-78" transform="translate(717 766)"><tspan x="0" y="0">+SetAuthMethod(method : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-28">
+          <text class="cls-76" transform="translate(912 640)"><tspan x="0" y="0">SmartDoorLock</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-16">
+          <rect class="cls-192" x="1049" y="11" width="363" height="282"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-119">
+          <rect class="cls-19" x="1049" y="11" width="363" height="282"/>
+        </g>
+        <g class="cls-111">
+          <line class="cls-19" x1="1049" y1="26" x2="1412" y2="26"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-72">
+          <text class="cls-78" transform="translate(1051 40)"><tspan x="0" y="0">#id : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-128">
+          <text class="cls-78" transform="translate(1051 55)"><tspan x="0" y="0">#name : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-45">
+          <text class="cls-78" transform="translate(1051 70)"><tspan x="0" y="0">#manufacturer : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-171">
+          <text class="cls-78" transform="translate(1051 85)"><tspan x="0" y="0">#status : bool</tspan></text>
+        </g>
+        <g class="cls-195">
+          <line class="cls-20" x1="1049" y1="90" x2="1412" y2="90"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-143">
+          <text class="cls-77" transform="translate(1051 104)"><tspan x="0" y="0">+Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-42">
+          <text class="cls-78" transform="translate(1051 119)"><tspan x="0" y="0">+SmartDevice(id : int, name : const string&amp;, manufacturer : const string&amp;)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-53">
+          <text class="cls-78" transform="translate(1051 134)"><tspan x="0" y="0">+~SmartDevice()</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-23">
+          <text class="cls-77" transform="translate(1051 149)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-164">
+          <text class="cls-78" transform="translate(1051 164)"><tspan x="0" y="0">+Activate() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-147">
+          <text class="cls-78" transform="translate(1051 179)"><tspan x="0" y="0">+Deactivate() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-180">
+          <text class="cls-78" transform="translate(1051 194)"><tspan x="0" y="0">+GetStatus() : bool</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-18">
+          <text class="cls-78" transform="translate(1051 209)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-27">
+          <text class="cls-78" transform="translate(1051 224)"><tspan x="0" y="0">+CheckConnection() : bool</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-110">
+          <text class="cls-78" transform="translate(1051 239)"><tspan x="0" y="0">+GetID() : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-121">
+          <text class="cls-78" transform="translate(1051 254)"><tspan x="0" y="0">+SetID(id : int) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-167">
+          <text class="cls-78" transform="translate(1051 269)"><tspan x="0" y="0">+SetName(name : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-60">
+          <text class="cls-78" transform="translate(1051 284)"><tspan x="0" y="0">+GetName() : const string&amp;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-115">
+          <text class="cls-75" transform="translate(1197 23)"><tspan x="0" y="0">SmartDevice</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-179">
+          <rect class="cls-192" x="348" y="438" width="598" height="117"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-99">
+          <rect class="cls-19" x="348" y="438" width="598" height="117"/>
+        </g>
+        <g class="cls-87">
+          <line class="cls-19" x1="348" y1="453" x2="946" y2="453"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-124">
+          <text class="cls-78" transform="translate(350 467)"><tspan x="0" y="0">-CameraRes : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-67">
+          <text class="cls-78" transform="translate(350 482)"><tspan x="0" y="0">-powerSource : string</tspan></text>
+        </g>
+        <g class="cls-50">
+          <line class="cls-20" x1="348" y1="487" x2="946" y2="487"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-196">
+          <text class="cls-78" transform="translate(350 501)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-62">
+          <text class="cls-78" transform="translate(350 516)"><tspan x="0" y="0">+SecurityCamera(id : int, name : const string&amp;, manufacturer : const string&amp;, quality : const string&amp;, power : const string&amp;)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-39">
+          <text class="cls-78" transform="translate(350 531)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-96">
+          <text class="cls-78" transform="translate(350 546)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-186">
+          <text class="cls-76" transform="translate(605 450)"><tspan x="0" y="0">SecurityCamera</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-73">
+          <rect class="cls-192" x="7" y="62" width="295" height="207"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-41">
+          <rect class="cls-19" x="7" y="62" width="295" height="207"/>
+        </g>
+        <g class="cls-108">
+          <line class="cls-19" x1="7" y1="77" x2="302" y2="77"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-48">
+          <text class="cls-78" transform="translate(9 91)"><tspan x="0" y="0">-name : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-54">
+          <text class="cls-78" transform="translate(9 106)"><tspan x="0" y="0">-devices : vector&lt;shared_ptr&lt;SmartDevice&gt;&gt;</tspan></text>
+        </g>
+        <g class="cls-32">
+          <line class="cls-20" x1="7" y1="111" x2="302" y2="111"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-70">
+          <text class="cls-78" transform="translate(9 125)"><tspan x="0" y="0">+Room(roomName : const string&amp;)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-177">
+          <text class="cls-78" transform="translate(9 140)"><tspan x="0" y="0">+GetName() : const string&amp;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-47">
+          <text class="cls-78" transform="translate(9 155)"><tspan x="0" y="0">+AddDevice(device : shared_ptr&lt;SmartDevice&gt;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-112">
+          <text class="cls-78" transform="translate(9 170)"><tspan x="0" y="0">+RemoveDevice(id : int) : bool</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-30">
+          <text class="cls-78" transform="translate(9 185)"><tspan x="0" y="0">+ListDevices() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-104">
+          <text class="cls-78" transform="translate(9 200)"><tspan x="0" y="0">+ListDevicesDetails() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-11">
+          <text class="cls-78" transform="translate(9 215)"><tspan x="0" y="0">+ActivateAllDevices() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-56">
+          <text class="cls-78" transform="translate(9 230)"><tspan x="0" y="0">+DeactivateAllDevices() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-95">
+          <text class="cls-78" transform="translate(9 245)"><tspan x="0" y="0">+GetDevices() : const vector&lt;shared_ptr&lt;SmartDevice&gt;&gt;&amp;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-125">
+          <text class="cls-78" transform="translate(9 260)"><tspan x="0" y="0">+AddDevice(device : shared_ptr&lt; SmartDevice &gt;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-93">
+          <text class="cls-76" transform="translate(138 74)"><tspan x="0" y="0">Room</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-46">
+          <rect class="cls-192" x="38" y="628" width="589" height="178"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-148">
+          <rect class="cls-19" x="38" y="628" width="589" height="178"/>
+        </g>
+        <g class="cls-83">
+          <line class="cls-19" x1="38" y1="643" x2="627" y2="643"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-146">
+          <text class="cls-78" transform="translate(40 657)"><tspan x="0" y="0">-wateringDuration : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-36">
+          <text class="cls-78" transform="translate(40 672)"><tspan x="0" y="0">-schedule : string</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-158">
+          <text class="cls-78" transform="translate(40 687)"><tspan x="0" y="0">-waterUsage : int</tspan></text>
+        </g>
+        <g class="cls-107">
+          <line class="cls-20" x1="38" y1="692" x2="627" y2="692"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-9">
+          <text class="cls-78" transform="translate(40 706)"><tspan x="0" y="0">-Clone() : shared_ptr&lt;SmartDevice&gt;</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-35">
+          <text class="cls-78" transform="translate(40 721)"><tspan x="0" y="0">+IrrigationSystem(id : int, name : const string&amp;, manufacturer : const string&amp;, dur : int, sched : const string&amp;, usage : int)</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-126">
+          <text class="cls-78" transform="translate(40 736)"><tspan x="0" y="0">+Set</tspan><tspan class="cls-175" x="22.93" y="0">W</tspan><tspan x="32.91" y="0">ateringDuration(duration : int) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-90">
+          <text class="cls-78" transform="translate(40 751)"><tspan x="0" y="0">+SetSchedule(sched : const string&amp;) : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-105">
+          <text class="cls-78" transform="translate(40 766)"><tspan x="0" y="0">+Check</tspan><tspan class="cls-175" x="37.6" y="0">W</tspan><tspan x="47.58" y="0">aterUsage() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-161">
+          <text class="cls-78" transform="translate(40 781)"><tspan x="0" y="0">+InteractionEvent() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-98">
+          <text class="cls-78" transform="translate(40 796)"><tspan x="0" y="0">+</tspan><tspan class="cls-157" x="6.42" y="0">V</tspan><tspan x="13.56" y="0">iewInfo() : void</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-43">
+          <text class="cls-76" transform="translate(288 640)"><tspan x="0" y="0">IrrigationSystem</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-198">
+          <rect class="cls-192" x="231" y="7" width="80" height="40"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-130">
+          <rect class="cls-19" x="231" y="7" width="80" height="40"/>
+        </g>
+        <g class="cls-190">
+          <line class="cls-19" x1="231" y1="23" x2="311" y2="23"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-187">
+          <text class="cls-78" transform="translate(233 37)"><tspan x="0" y="0">+main() : int</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-113">
+          <text class="cls-76" transform="translate(247 19)"><tspan x="0" y="0">GLOBA</tspan><tspan class="cls-157" x="39.72" y="0">L</tspan></text>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-172">
+          <line class="cls-19" x1="1230" y1="292" x2="1230" y2="342"/>
+        </g>
+        <g class="cls-97">
+          <line class="cls-19" x1="1230" y1="342" x2="344" y2="342"/>
+        </g>
+        <g class="cls-122">
+          <line class="cls-19" x1="344" y1="342" x2="344" y2="628"/>
+        </g>
+        <g class="cls-34">
+          <polygon class="cls-13" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+        <g class="cls-133">
+          <polygon class="cls-19" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-66">
+          <line class="cls-19" x1="1230" y1="292" x2="1230" y2="342"/>
+        </g>
+        <g class="cls-103">
+          <line class="cls-19" x1="1230" y1="342" x2="647" y2="342"/>
+        </g>
+        <g class="cls-151">
+          <line class="cls-19" x1="647" y1="342" x2="648" y2="435"/>
+        </g>
+        <g class="cls-134">
+          <polygon class="cls-13" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+        <g class="cls-14">
+          <polygon class="cls-19" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-22">
+          <line class="cls-19" x1="1231" y1="292" x2="1231" y2="343"/>
+        </g>
+        <g class="cls-139">
+          <line class="cls-19" x1="1231" y1="343" x2="954" y2="342"/>
+        </g>
+        <g class="cls-31">
+          <line class="cls-19" x1="954" y1="342" x2="953" y2="628"/>
+        </g>
+        <g class="cls-33">
+          <polygon class="cls-13" points="1231 292 1225 304 1237 304 1231 292"/>
+        </g>
+        <g class="cls-29">
+          <polygon class="cls-19" points="1231 292 1225 304 1237 304 1231 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-40">
+          <line class="cls-19" x1="1230" y1="292" x2="1230" y2="438"/>
+        </g>
+        <g class="cls-63">
+          <polygon class="cls-13" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+        <g class="cls-149">
+          <polygon class="cls-19" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-116">
+          <line class="cls-19" x1="1230" y1="292" x2="1230" y2="343"/>
+        </g>
+        <g class="cls-80">
+          <line class="cls-19" x1="1230" y1="343" x2="1505" y2="342"/>
+        </g>
+        <g class="cls-101">
+          <line class="cls-19" x1="1505" y1="342" x2="1504" y2="628"/>
+        </g>
+        <g class="cls-17">
+          <polygon class="cls-13" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+        <g class="cls-7">
+          <polygon class="cls-19" points="1230 292 1224 304 1236 304 1230 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-153">
+          <line class="cls-19" x1="1231" y1="292" x2="1231" y2="343"/>
+        </g>
+        <g class="cls-61">
+          <line class="cls-19" x1="1231" y1="343" x2="1829" y2="343"/>
+        </g>
+        <g class="cls-44">
+          <line class="cls-19" x1="1829" y1="343" x2="1828" y2="436"/>
+        </g>
+        <g class="cls-169">
+          <polygon class="cls-13" points="1231 292 1225 304 1237 304 1231 292"/>
+        </g>
+        <g class="cls-150">
+          <polygon class="cls-19" points="1231 292 1225 304 1237 304 1231 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-85">
+          <line class="cls-19" x1="1231" y1="292" x2="1231" y2="343"/>
+        </g>
+        <g class="cls-156">
+          <line class="cls-19" x1="1231" y1="343" x2="2151" y2="342"/>
+        </g>
+        <g class="cls-109">
+          <line class="cls-19" x1="2151" y1="342" x2="2151" y2="628"/>
+        </g>
+        <g class="cls-118">
+          <polygon class="cls-13" points="1231 292 1225 304 1237 304 1231 292"/>
+        </g>
+        <g class="cls-137">
+          <polygon class="cls-19" points="1231 292 1225 304 1237 304 1231 292"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-74">
+          <line class="cls-19" x1="423" y1="102" x2="303" y2="102"/>
+        </g>
+        <g class="cls-55">
+          <polygon points="447 102 435 96 423 102 435 108 447 102"/>
+        </g>
+        <g class="cls-123">
+          <polygon class="cls-19" points="447 102 435 96 423 102 435 108 447 102"/>
+        </g>
+      </g>
+      <g image-rendering="optimizeQuality" text-rendering="geometricPrecision">
+        <g class="cls-194">
+          <line class="cls-19" x1="927" y1="86" x2="1048" y2="86"/>
+        </g>
+        <g class="cls-49">
+          <polygon points="903 86 915 92 927 86 915 80 903 86"/>
+        </g>
+        <g class="cls-4">
+          <polygon class="cls-19" points="903 86 915 92 927 86 915 80 903 86"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

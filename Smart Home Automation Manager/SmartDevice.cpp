@@ -17,7 +17,7 @@ void SmartDevice::Deactivate() {
 bool SmartDevice::GetStatus() const { return status; }
 
 void SmartDevice::ViewInfo() const {
-	cout << "ID: " << id << "\tName: " << name << "\tManufacturer: " << manufacturer << "\t\tStatus: " << (status ? "Active" : "Inactive") << '\n';
+	cout << "ID: " << id << "\tName: " << name << "\tManufacturer: " << manufacturer << "\tStatus: " << (status ? "Active" : "Inactive") << '\t';
 }
 
 bool SmartDevice::CheckConnection() const { return status; }

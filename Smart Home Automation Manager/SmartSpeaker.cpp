@@ -17,9 +17,8 @@ void SmartSpeaker::SetVolumeLevel(int level) {
 		volumeLevel = level;
 		cout << "Volume set to " << volumeLevel << '\n';
 	}
-	else {
+	else
 		cout << "Invalid volume level or speaker is inactive.\n";
-	}
 }
 
 void SmartSpeaker::ViewInfo() const {
