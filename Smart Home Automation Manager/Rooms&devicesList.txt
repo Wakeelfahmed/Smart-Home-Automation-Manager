@@ -1,15 +1,37 @@
-Room: Living Room
-1,SmartLight,Living Room Light,Philips,true
-2,Thermostat,Living Room Thermostat,Nest,false,24.5
+Room: Porch
+1,SecurityCamera,FrontDoor_Camera,CamCorp,1080p,Battery
+2,SmartLight,Light,Philips,100,Warm
+3,SmartDoorLock,Main_Lock,SecureHome,Biometric
 
-Room: Bedroom
-3,SmartLight,Bedroom Light,Philips,false
-4,SmartDoorLock,Bedroom Door Lock,August Home,true,Keypad
+Room: Living
+4,Thermostat,Living Room Thermostat,ThermoPro,24.5
+5,SmartSpeaker,Speaker,Audionic,80
+6,SmartLight,Light,Philips,75,Warm
 
 Room: Kitchen
-5,SmartLight,Kitchen Light,Philips,true
-6,Thermostat,Kitchen Thermostat,Nest,false,18.0
-7,SmartDoorLock,Kitchen Door Lock,August Home,true,Card
+7,SmartSpeaker,Speaker,Audionic,70
+8,SmartLight,Kitchen Light,Philips,85,White
+9,Thermostat,Kitchen Thermostat,ThermoPro,18.0
+10,SmartDoorLock,Kitchen Door Lock,SecureHome,Card
+
+Room: Bedroom
+11,SmartLight,Bedroom Light,Philips,70,Warm
+12,SmartDoorLock,Bedroom Door Lock,SecureHome,Keypad
+13,SmartSpeaker,Speaker,Audionic,80
+
+Room: Garden
+14,IrrigationSystem,Irrigation System,GreenTech,30,6:00 AM Daily,1
+15,SmartLight,Light,Philips,70,Warm
 
 Room: Laundry
-14,WashingMachine,Washer,Samsung,Quick Wash, 45, 8
+16,WashingMachine,Washer,Samsung,Quick Wash,45,8
+17,SmartLight,Light,Philips,60,White
+
+Room: Garage
+18,SecurityCamera,Camera,CamCorp,720p,Wired
+19,SmartLight,Light,Philips,100,Warm
+20,SmartDoorLock,GarageDoor,SecureHome,Wireless
+
+Room: Bathroom
+21,SmartLight,Light,Philips,65,White
+22,Thermostat,Kitchen Thermostat,ThermoPro,20.0

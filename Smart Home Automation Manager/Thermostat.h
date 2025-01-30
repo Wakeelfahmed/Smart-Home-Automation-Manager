@@ -10,7 +10,7 @@ class Thermostat : public SmartDevice {
 	shared_ptr<SmartDevice> Clone() const override;
 public:
 	Thermostat(int id, const string& name, const string& manufacturer, float temp = 22.0f);
-	void InteractionEvent() const override;
+	void InteractionEvent() override;
 	void SetTargetTemperature(float temp);
 	void ViewInfo() const override;
 };

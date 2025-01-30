@@ -5,10 +5,27 @@ SmartLight::SmartLight(int id, const string& name, const string& manufacturer, i
 
 shared_ptr<SmartDevice> SmartLight::Clone() const { return make_shared<SmartLight>(*this); }
 
-void SmartLight::InteractionEvent() const {
-	if (status)
-		cout << "Smart Light brightness: " << brightnessLevel
-		<< ", color: " << colorType << '\n';
+void SmartLight::InteractionEvent() {
+	int choice;
+	if (status) {
+		cout << "Smart Light brightness: " << brightnessLevel << ", color: " << colorType << '\n';
+		cout << "Press 1. Set Brightness\nPress 2. Set Color\n";
+		cin >> choice;
+		if (choice == 1) {
+			int level;
+			cout << "Enter brightness level: ";
+			cin >> level;
+			SetBrightness(level);
+		}
+		else if (choice == 2) {
+			string color;
+			cout << "Enter color: ";
+			cin >> color;
+			SetColor(color);
+		}
+		else
+			cout << "Invalid input.\n";
+	}
 	else
 		cout << "Smart Light is inactive.\n";
 }
@@ -18,7 +35,7 @@ void SmartLight::SetBrightness(int level) {
 		brightnessLevel = level;
 		cout << "Brightness set to " << brightnessLevel << '\n';
 	}
-	else 
+	else
 		cout << "Invalid brightness level or light is inactive.\n";
 }
 
@@ -27,7 +44,7 @@ void SmartLight::SetColor(const string& color) {
 		colorType = color;
 		cout << "Color set to " << colorType << '\n';
 	}
-	else 
+	else
 		cout << "Light does not support color change or is inactive.\n";
 }
 

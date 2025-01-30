@@ -1,7 +1,6 @@
 #include "IrrigationSystem.h"
 
-IrrigationSystem::IrrigationSystem(int id, const string& name, const string& manufacturer,
-	int duration, const string& sched, int usage)
+IrrigationSystem::IrrigationSystem(int id, const string& name, const string& manufacturer, int duration, const string& sched, float usage)
 	: SmartDevice(id, name, manufacturer), wateringDuration(duration), schedule(sched), waterUsage(usage) {}
 
 shared_ptr<SmartDevice> IrrigationSystem::Clone() const { return make_shared<IrrigationSystem>(*this); }	// Copy constructor for deep copy
@@ -27,27 +26,41 @@ void IrrigationSystem::SetSchedule(const string& sched) {
 }
 
 void IrrigationSystem::CheckWaterUsage() const {
-	if (status) {
+	if (status)
 		cout << "Water used so far: " << waterUsage << " liters.\n";
-	}
-	else {
+	else
 		cout << "System is inactive.\n";
-	}
 }
 
-void IrrigationSystem::InteractionEvent() const {
+void IrrigationSystem::InteractionEvent() {
+	int choice;
 	if (status) {
-		cout << "Irrigation System is running on schedule: " << schedule
-			<< " for " << wateringDuration << " minutes.\n";
+		cout << "Irrigation System is running on schedule: " << schedule << " for " << wateringDuration << " minutes.\n";
+		cout << "1. Stop Irrigation\t2. Change Schedule\t3. Change Watering Duration\n";
+		cin >> choice;
+		if (choice == 1)
+			status = false;
+
+		else if (choice == 2) {
+			string sched;
+			cout << "Enter new schedule: ";
+			cin >> sched;
+			SetSchedule(sched);
+		}
+		else if (choice == 3) {
+			int duration;
+			cout << "Enter new watering duration: ";
+			cin >> duration;
+			SetWateringDuration(duration);
+		}
+		else
+			cout << "Invalid input.\n";
 	}
-	else {
+	else
 		cout << "Irrigation System is inactive.\n";
-	}
 }
 
 void IrrigationSystem::ViewInfo() const {
 	SmartDevice::ViewInfo();
-	cout << "Watering Duration: " << wateringDuration << " minutes\n"
-		<< "Schedule: " << schedule << "\n"
-		<< "Water Usage: " << waterUsage << " liters\n";
+	cout << "Watering Duration: " << wateringDuration << " minutes\t" << "Schedule: " << schedule << "\t" << "Water Usage: " << waterUsage << " liters\n";
 }

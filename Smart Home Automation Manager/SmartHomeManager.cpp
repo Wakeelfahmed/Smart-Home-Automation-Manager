@@ -132,7 +132,8 @@ void SmartHomeManager::LoadFromFile(const string& filename) {
 
 	string line;
 	Room* currentRoom = nullptr;
-
+	string idStr, type, name, Mname, stateStr, extra;	//variables to store data
+	int id;
 	while (getline(file, line)) {
 		// Trim whitespace
 		line.erase(0, line.find_first_not_of(" \t"));
@@ -151,77 +152,51 @@ void SmartHomeManager::LoadFromFile(const string& filename) {
 			currentRoom = rooms.back().get(); // Get raw pointer from shared_ptr
 		}
 		else {
-			if (!currentRoom) {
+			if (!currentRoom)
 				throw runtime_error("Device entry found before any room declaration.");
-			}
 
 			istringstream iss(line);
-			string idStr, type, name, stateStr, Mname, extra;
 
-			if (!getline(iss, idStr, ',') ||
-				!getline(iss, type, ',') ||
-				!getline(iss, name, ',') ||
-				!getline(iss, Mname, ',') ||
-				!getline(iss, stateStr, ',')) {
+			if (!getline(iss, idStr, ',') || !getline(iss, type, ',') || !getline(iss, name, ',') || !getline(iss, Mname, ',') || !getline(iss, stateStr, ','))
 				throw runtime_error("Malformed device entry: " + line);
-			}
 
-			int id = stoi(idStr);
-			bool state = (stateStr == "true");
+			id = stoi(idStr);
 
-			if (type == "SmartLight")
-				currentRoom->AddDevice(make_shared<SmartLight>(id, name, Mname, state));
-
-			else if (type == "Thermostat") {
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing temperature for SmartThermostat: " + line);
-				}
-				double temperature = stod(extra);
-				currentRoom->AddDevice(make_shared<Thermostat>(id, name, Mname, float(temperature)));
+			if (type == "SmartLight") {
+				if (!getline(iss, extra, ','))	//Color
+					throw runtime_error("Missing color for SmartLight: " + line);
+				currentRoom->AddDevice(make_shared<SmartLight>(id, name, Mname, stoi(stateStr)/*Bightness*/, extra /*color*/));
 			}
-			else if (type == "SmartDoorLock") {
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing authMethod for SmartDoorLock: " + line);
-				}
-				currentRoom->AddDevice(make_shared<SmartDoorLock>(id, name, Mname, extra));
-			}
+			else if (type == "Thermostat")
+				currentRoom->AddDevice(make_shared<Thermostat>(id, name, Mname, float(stod(stateStr))));
+			else if (type == "SmartDoorLock")
+				currentRoom->AddDevice(make_shared<SmartDoorLock>(id, name, Mname, stateStr));
 			else if (type == "WashingMachine") {
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing power t: " + line);
-				}
-				currentRoom->AddDevice(make_shared<SmartWashingMachine>(id, name, Mname, stateStr, stoi(extra)));
+				if (!getline(iss, extra, ','))	//duration
+					throw runtime_error("Missing duration for WashingMachine: " + line);
+				string dur = extra;
+				if (!getline(iss, extra, ','))	//load capacity
+					throw runtime_error("Missing load Capacity: " + line);
+				currentRoom->AddDevice(make_shared<SmartWashingMachine>(id, name, Mname, stateStr, stoi(dur), stoi(extra)));
 			}
 			else if (type == "IrrigationSystem") {
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing water flow rate for IrrigationSystem: " + line);
-				}
-				double flowRate = stod(extra);
-				currentRoom->AddDevice(make_shared<IrrigationSystem>(id, name, Mname, float(flowRate)));
+				if (!getline(iss, extra, ','))	//water schedule 
+					throw runtime_error("Missing water schedule for IrrigationSystem: " + line);
+				string Sche = extra;
+				if (!getline(iss, extra, ','))	//water usage 
+					throw runtime_error("Missing water usage for IrrigationSystem: " + line);
+				currentRoom->AddDevice(make_shared<IrrigationSystem>(id, name, Mname, stoi(stateStr) /*dur*/, Sche /*Sche*/, stoi(extra)/*usage*/));
 			}
 			else if (type == "SecurityCamera") {
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing resolution for SecurityCamera: " + line);
-				}
-				string resolution = extra;
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing power source for SecurityCamera: " + line);
-				}
-				string powerSource = extra;
-				currentRoom->AddDevice(make_shared<SecurityCamera>(id, name, Mname, resolution, powerSource));
+				if (!getline(iss, extra, ','))	//Power source 
+					throw runtime_error("Missing Power Source for SecurityCamera: " + line);
+				currentRoom->AddDevice(make_shared<SecurityCamera>(id, name, Mname, stateStr, extra));
 			}
-			else if (type == "SmartSpeaker") {
-				if (!getline(iss, extra, ',')) {
-					throw runtime_error("Missing volume for SmartSpeaker: " + line);
-				}
-				int volume = stoi(extra);
-				currentRoom->AddDevice(make_shared<SmartSpeaker>(id, name, Mname, volume));
-			}
-
-			else {
+			else if (type == "SmartSpeaker")	//Volume 
+				currentRoom->AddDevice(make_shared<SmartSpeaker>(id, name, Mname, stoi(stateStr)));
+			else
 				throw runtime_error("Unknown device type: " + type);
-			}
 		}
 	}
-
 	file.close();
 }

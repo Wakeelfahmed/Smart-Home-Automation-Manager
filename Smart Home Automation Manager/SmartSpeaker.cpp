@@ -5,11 +5,15 @@ SmartSpeaker::SmartSpeaker(int id, const string& name, const string& manufacture
 
 shared_ptr<SmartDevice> SmartSpeaker::Clone() const { return make_shared<SmartSpeaker>(*this); }
 
-void SmartSpeaker::InteractionEvent() const {
-	if (status)
-		cout << "Smart Speaker volume level: " << volumeLevel << '\n';
-	else
+void SmartSpeaker::InteractionEvent() {
+	if (!status) {
 		cout << "Smart Speaker is inactive.\n";
+		return;
+	}
+	int vol;
+	cout << "Adjust volume level: ";
+	cin >> vol;
+	SetVolumeLevel(vol);
 }
 
 void SmartSpeaker::SetVolumeLevel(int level) {

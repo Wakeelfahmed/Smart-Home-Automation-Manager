@@ -11,7 +11,7 @@ class SmartLight : public SmartDevice {
 	shared_ptr<SmartDevice> Clone() const override;
 public:
 	SmartLight(int id, const string& name, const string& manufacturer, int brightness = 50, const string& color = "Warm White");
-	void InteractionEvent() const override;
+	void InteractionEvent() override;
 	void SetBrightness(int level);
 	void SetColor(const string& color);
 	void ViewInfo() const override;

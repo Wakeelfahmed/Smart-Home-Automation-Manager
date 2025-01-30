@@ -11,7 +11,7 @@ public:
 	SmartDoorLock(int id, const string& name, const string& manufacturer, const string& auth = "Keypad");
 	void Lock();
 	void Unlock();
-	void InteractionEvent() const override;
+	void InteractionEvent() override;
 	void ViewInfo() const override;
 	void SetAuthMethod(const string& method);
 };

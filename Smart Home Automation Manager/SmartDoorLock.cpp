@@ -21,16 +21,26 @@ void SmartDoorLock::Unlock() {
 	status = false;
 }
 
-void SmartDoorLock::InteractionEvent() const {
-	if (status)
+void SmartDoorLock::InteractionEvent() {
+	if (status) {
 		cout << name << ". Authentication Method: " << authMethod << '\n';
+		int input;
+		cout << "Press to 1. Lock\tPress 2. Unlock\n";
+		cin >> input;
+		if (input == 1)
+			Lock();
+		else if (input == 2)
+			Unlock();
+		else
+			cout << "Invalid input.\n";
+	}
 	else
 		cout << name << " is inactive.\n";
 }
 
 void SmartDoorLock::ViewInfo() const {
 	SmartDevice::ViewInfo();
-	cout << "Current State: " << status << "\tAuthentication Method: " << authMethod << '\n';
+	cout << "Authentication Method: " << authMethod << '\n';
 }
 
 void SmartDoorLock::SetAuthMethod(const string& method) {

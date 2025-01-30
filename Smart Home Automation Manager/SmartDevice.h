@@ -17,7 +17,7 @@ public:
 
 	SmartDevice(int id, const string& name, const string& manufacturer);
 	virtual ~SmartDevice();
-	virtual void InteractionEvent() const = 0;
+	virtual void InteractionEvent() = 0;
 	void Activate();
 	void Deactivate();
 	bool GetStatus() const;

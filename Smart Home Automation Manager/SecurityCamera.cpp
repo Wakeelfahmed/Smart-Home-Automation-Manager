@@ -5,9 +5,19 @@ SecurityCamera::SecurityCamera(int id, const string& name, const string& manufac
 
 shared_ptr<SmartDevice> SecurityCamera::Clone() const { return make_shared<SecurityCamera>(*this); }
 
-void SecurityCamera::InteractionEvent() const {
-	if (status)
+void SecurityCamera::InteractionEvent() {
+	if (status) {
+		int choice;
 		cout << "Now viewing camera: " << name << " (" << CameraRes << " quality)\n";
+		cout << "Press 1. Rotate Camera left\tPress 2. Rotate Camera right\n";
+		cin >> choice;
+		if (choice == 1)
+			cout << "Camera rotated left.\n";
+		else if (choice == 2)
+			cout << "Camera rotated right.\n";
+		else
+			cout << "Invalid input.\n";
+	}
 	else
 		cout << "Camera is inactive.\n";
 }

@@ -12,7 +12,7 @@ class SecurityCamera : public SmartDevice {
 
 public:
 	SecurityCamera(int id, const string& name, const string& manufacturer, const string& quality, const string& power);
-	void InteractionEvent() const override;
+	void InteractionEvent() override;
 	void ViewInfo() const override;
 };
 

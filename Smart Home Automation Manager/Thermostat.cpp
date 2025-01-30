@@ -6,9 +6,21 @@ Thermostat::Thermostat(int id, const string& name, const string& manufacturer, f
 
 shared_ptr<SmartDevice> Thermostat::Clone() const { return make_shared<Thermostat>(*this); } // Copy constructor for deep copy
 
-void Thermostat::InteractionEvent() const {
-	if (status)
+void Thermostat::InteractionEvent() {
+	int choice;
+	if (status) {
 		cout << "Thermostat is set to " << TemperatureSet << "°C\n";
+		cout << "Press 1. Set Target Temperature\n";
+		cin >> choice;
+		if (choice == 2) {
+			float temp;
+			cout << "Enter target temperature: ";
+			cin >> temp;
+			SetTargetTemperature(temp);
+		}
+		else
+			cout << "Invalid input.\n";
+	}
 	else
 		cout << "Thermostat is inactive.\n";
 }

@@ -6,42 +6,45 @@ using namespace std;
 
 int main() {
 	SmartHomeManager manager;
+	manager.LoadFromFile("Rooms&devicesList.txt");	// Initizlize System from file
 
-	// Porch
-	manager.AddDeviceToRoom(make_shared<SecurityCamera>(1, "FrontDoor_Camera", "CamCorp", "1080p", "Battery"), "Porch");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(2, "Light", "Philips", 100, "Warm"), "Porch");
-	manager.AddDeviceToRoom(make_shared<SmartDoorLock>(3, "Main_Lock", "SecureHome", "Biometric"), "Porch");
+	//// Porch
+	//manager.AddDeviceToRoom(make_shared<SecurityCamera>(1, "FrontDoor_Camera", "CamCorp", "1080p", "Battery"), "Porch");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(2, "Light", "Philips", 100, "Warm"), "Porch");
+	//manager.AddDeviceToRoom(make_shared<SmartDoorLock>(3, "Main_Lock", "SecureHome", "Biometric"), "Porch");
 
-	// Living Room
-	manager.AddDeviceToRoom(make_shared<Thermostat>(4, "Thermostat", "ThermoPro"), "Living");
-	manager.AddDeviceToRoom(make_shared<SmartSpeaker>(5, "Speaker", "Audionic", 80), "Living");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(6, "Light", "Philips", 75, "White"), "Living");
+	//// Living Room
+	//manager.AddDeviceToRoom(make_shared<Thermostat>(4, "Thermostat", "ThermoPro"), "Living");
+	//manager.AddDeviceToRoom(make_shared<SmartSpeaker>(5, "Speaker", "Audionic", 80), "Living");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(6, "Light", "Philips", 75, "White"), "Living");
 
-	// Kitchen
-	manager.AddDeviceToRoom(make_shared<SmartSpeaker>(7, "Speaker", "Audionic", 70), "Kitchen");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(8, "Light", "Philips", 85, "White"), "Kitchen");
+	//// Kitchen
+	//manager.AddDeviceToRoom(make_shared<SmartSpeaker>(7, "Speaker", "Audionic", 70), "Kitchen");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(8, "Light", "Philips", 85, "White"), "Kitchen");
+	//manager.AddDeviceToRoom(make_shared<Thermostat>(9, "Thermostat", "Nest", 18.0f), "Kitchen");
+	//manager.AddDeviceToRoom(make_shared<SmartDoorLock>(10, "Door Lock", "SecureHome", "Card"), "Kitchen");
 
-	// Bedroom
-	manager.AddDeviceToRoom(make_shared<SmartLight>(9, "Light", "Philips", 70, "Warm"), "Bedroom");
-	manager.AddDeviceToRoom(make_shared<Thermostat>(10, "Thermostat", "ThermoPro"), "Bedroom");
-	manager.AddDeviceToRoom(make_shared<SmartSpeaker>(11, "Speaker", "Audionic", 60), "Bedroom");
+	//// Bedroom
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(11, "Light", "Philips", 70, "Warm"), "Bedroom");
+	//manager.AddDeviceToRoom(make_shared<Thermostat>(12, "Thermostat", "ThermoPro"), "Bedroom");
+	//manager.AddDeviceToRoom(make_shared<SmartSpeaker>(13, "Speaker", "Audionic", 60), "Bedroom");
 
-	// Garden
-	manager.AddDeviceToRoom(make_shared<IrrigationSystem>(12, "Irrigation System", "GreenTech"), "Garden");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(13, "Light", "Philips", 50, "Cool"), "Garden");
+	//// Garden
+	//manager.AddDeviceToRoom(make_shared<IrrigationSystem>(14, "Irrigation System", "GreenTech"), "Garden");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(15, "Light", "Philips", 50, "Cool"), "Garden");
 
-	// Laundry Room
-	manager.AddDeviceToRoom(make_shared<SmartWashingMachine>(14, "Washer", "Samsung", "Quick Wash", 45, 8), "Laundry");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(15, "Light", "Philips", 60, "White"), "Laundry");
+	//// Laundry
+	//manager.AddDeviceToRoom(make_shared<SmartWashingMachine>(16, "Washer", "Samsung", "Quick Wash", 45, 8), "Laundry");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(17, "Light", "Philips", 60, "White"), "Laundry");
 
-	// Garage
-	manager.AddDeviceToRoom(make_shared<SecurityCamera>(16, "Camera", "CamCorp", "720p", "Wired"), "Garage");
-	manager.AddDeviceToRoom(make_shared<SmartDoorLock>(17, "Door Lock", "SecureHome", "Keypad"), "Garage");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(18, "Light", "Lightify", 90, "White"), "Garage");
+	//// Garage
+	//manager.AddDeviceToRoom(make_shared<SecurityCamera>(18, "Camera", "CamCorp", "720p", "Wired"), "Garage");
+	//manager.AddDeviceToRoom(make_shared<SmartDoorLock>(19, "Door Lock", "SecureHome", "Wireless"), "Garage");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(20, "Light", "Lightify", 90, "White"), "Garage");
 
-	// Bathroom
-	manager.AddDeviceToRoom(make_shared<Thermostat>(19, "Thermostat", "ThermoPro"), "Bathroom");
-	manager.AddDeviceToRoom(make_shared<SmartLight>(20, "Light", "Lightify", 75, "White"), "Bathroom");
+	//// Bathroom
+	//manager.AddDeviceToRoom(make_shared<Thermostat>(21, "Thermostat", "ThermoPro"), "Bathroom");
+	//manager.AddDeviceToRoom(make_shared<SmartLight>(22, "Light", "Lightify", 65, "White"), "Bathroom");
 
 	SetConsoleOutputCP(CP_UTF8); // Set console code page to UTF-8 to display 
 
