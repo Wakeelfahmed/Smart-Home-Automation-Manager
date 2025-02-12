@@ -20,8 +20,7 @@ bool Room::RemoveDevice(int id) {
 void Room::ListDevices() const {
 	if (devices.empty()) {
 		cout << "* Room " << name << ":\n";
-		cout << "   (No devices in room) " << ".\n";
-		cout << "--------------------\n";
+		cout << "   (No devices in room)." << "\n";
 		return;
 	}
 	cout << "* Room " << name << ":\n";

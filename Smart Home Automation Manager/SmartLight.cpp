@@ -1,9 +1,13 @@
 #include "SmartLight.h"
 
+// Constructor to initialize the SmartLight with the given id, name, manufacturer, brightness, and color
 SmartLight::SmartLight(int id, const string& name, const string& manufacturer, int brightness, const string& color)
 	: SmartDevice(id, name, manufacturer), brightnessLevel(brightness), colorType(color) {}
 
+// Clone method to create a copy of the SmartLight object
 shared_ptr<SmartDevice> SmartLight::Clone() const { return make_shared<SmartLight>(*this); }
+
+bool validate_input(int input, int start, int end) { return input >= start && input <= end; }
 
 void SmartLight::InteractionEvent() {
 	int choice;
@@ -30,6 +34,7 @@ void SmartLight::InteractionEvent() {
 		cout << "Smart Light is inactive.\n";
 }
 
+// SetBrightness method to change the brightness level, ensuring the level is between 0 and 100
 void SmartLight::SetBrightness(int level) {
 	if (status && level >= 0 && level <= 100) {
 		brightnessLevel = level;
@@ -48,7 +53,7 @@ void SmartLight::SetColor(const string& color) {
 		cout << "Light does not support color change or is inactive.\n";
 }
 
-void SmartLight::ViewInfo() const {
-	SmartDevice::ViewInfo();
+void SmartLight::ViewInfo() const {	
+	SmartDevice::ViewInfo();	// Calls the base class ViewInfo method
 	cout << "Brightness Level: " << brightnessLevel << "\tColor Type: " << colorType << '\n';
 }

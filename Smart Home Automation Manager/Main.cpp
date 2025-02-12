@@ -50,6 +50,7 @@ int main() {
 
 	short choice;
 	do {
+		// Display the main menu
 		cout << "=== Smart Home Management System ===\n"
 			<< "1. Add a new device\t"
 			<< "2. Search for a device\t\t"
@@ -67,7 +68,8 @@ int main() {
 
 		switch (choice) {
 		case 1: {
-			cout << "Enter device type (1: Light, 2: Thermostat, 3: Door Lock, 4: Camera, 5: Speaker): ";
+			// Case 1: Adding a new device
+			cout << "Enter device type (1: Light, 2: Thermostat, 3: Door Lock, 4: Camera, 5: Speaker, 6: Washing Machine 7: Irrigaiton System): ";
 			short type;
 			cin >> type;
 
@@ -97,6 +99,14 @@ int main() {
 				cout << "Enter volume level: ";			cin >> volume;
 				device = make_shared<SmartSpeaker>(id, name, Mname, volume);
 			}
+			else if (type == 6) {
+				string washType;	int temp, load;
+				cout << "Enter wash type: ";	cin >> washType;
+				cout << "Enter temperature: ";	cin >> temp;
+				cout << "Enter load size: ";	cin >> load;
+				device = make_shared<SmartWashingMachine>(id, name, Mname, washType, temp, load);
+			}
+
 			else {
 				cout << "Invalid device type.\n";
 				break;
@@ -109,6 +119,7 @@ int main() {
 			break;
 		}
 		case 2: {
+			// Case 2: Searching for a device by ID
 			int id;
 			cout << "Enter device ID to search: ";			cin >> id;
 
@@ -140,6 +151,7 @@ int main() {
 			break;
 		}
 		case 3: {
+			// Case 3: Activating all devices in a room
 			string roomName;
 			cout << "Enter room name: ";		cin >> roomName;
 
@@ -152,6 +164,7 @@ int main() {
 			break;
 		}
 		case 4: {
+			// Case 4: Deactivating all devices in a room
 			string roomName;
 			cout << "Enter room name: ";		cin >> roomName;
 
@@ -164,12 +177,14 @@ int main() {
 			break;
 		}
 		case 5: {
+			// Case 5: Creating a new room
 			string roomName;
 			cout << "Enter room name: ";		cin >> roomName;
 			manager.AddRoom(roomName);
 			break;
 		}
 		case 6: {
+			// Case 6: Moving a device across rooms
 			int id;
 			string roomName;
 			cout << "Enter device ID to move: ";	cin >> id;
@@ -194,6 +209,7 @@ int main() {
 			break;
 		}
 		case 7: {
+			// Case 7: Removing a device from a room
 			string roomName;
 			int id;
 			cout << "Enter room name: ";			cin >> roomName;
@@ -212,6 +228,7 @@ int main() {
 			break;
 		}
 		case 8: {
+			// Case 8: Listing all devices in a room
 			string roomName;
 			cout << "Enter room name: ";	cin >> roomName;
 
@@ -224,6 +241,7 @@ int main() {
 			break;
 		}
 		case 9: {
+			// Case 9: Duplicating a room
 			string roomName;
 			cout << "Enter room name to duplicate: ";	cin >> roomName;
 
@@ -231,10 +249,12 @@ int main() {
 			break;
 		}
 		case 10: {
+			// Case 10: Viewing all rooms
 			manager.ViewAllRooms();
 			break;
 		}
 		case 11: {
+			// Case 11: Loading devices and rooms from a file
 			string filename;
 			cout << "Enter filename to load from: ";	cin >> filename;
 
@@ -242,11 +262,12 @@ int main() {
 			break;
 		}
 		case 12:
+			// Case 12: Exit the system
 			cout << "Exiting system. Goodbye!\n";
-			return 0;
+			break;
 		default:
 			cout << "Invalid choice. Try again.\n";
 		}
 		cout << "\n";
-	} while (choice != 0);
+	} while (choice != 12);	// Repeat until the user chooses to exit
 }
